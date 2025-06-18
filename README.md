@@ -22,7 +22,7 @@ NewsRoom is a dynamic React-based web application that displays the latest headl
 ## 📸 Screenshots
 
 ![Home Page](./screenshots/home.png)
-![Loading and Infinite Scroll](./screenshots/top-loadingbar.png)
+![Loading and Infinite Scroll]([./screenshots/top-loadingbar.png](https://github.com/Shashankshekhar0007/NewsApp/blob/main/screenshots/top-loading%20bar.png))
 
 ## 🚀 Getting Started
 
