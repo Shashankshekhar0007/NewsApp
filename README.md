@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# 📰 NewsRoom - React News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsRoom is a dynamic React-based web application that displays the latest headlines using the [NewsAPI.org](https://newsapi.org) service. It supports infinite scrolling, categorized news, and country-based filtering.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- 🗞 Top Headlines fetched from NewsAPI
+- 🔄 Infinite Scroll Pagination
+- 📂 Category-wise News (e.g., Technology, Health, Sports)
+- 🌐 Country-based filtering
+- 🖼 News Cards with images, headlines, and links
+- 🚥 Progress Bar on API Fetch
+- 🔘 Navigation Buttons (Prev/Next as fallback)
 
-### `npm start`
+## 📦 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js
+- Bootstrap 5 (for UI)
+- NewsAPI (external data source)
+- React Infinite Scroll Component
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+![Home Page](./screenshots/home.png)
+![Loading and Infinite Scroll](./screenshots/scroll.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+```bash
+git clone https://github.com/yourusername/newsroom-react.git
+cd newsroom-react
+npm install
+```
+Environment Setup
+Create a .env file in the root directory:
+```REACT_APP_NEWS_API_KEY=your_newsapi_key_here```
+Run the App
+```npm start```
+App runs on http://localhost:3000.
